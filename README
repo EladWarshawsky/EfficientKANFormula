@@ -1,0 +1,7 @@
+The original Efficient-KAN implementation has no formula conversion process, but is 10x faster than the original implementation.
+This project is dedicate to being able to train Kolmogorov Arnold Networks quickly while still supporting interpretability.
+
+Feel free to train a KAN on whatever task you like, then using the example script in solving.ipynb as a base, see if you can extract some interesting or informative formulas. 
+
+TODO:
+-Have more accurate formula approximation for the bsplines, it is not as good as it could be. 
